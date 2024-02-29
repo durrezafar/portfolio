@@ -1,0 +1,98 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        html {
+            font-family: "Lucida Sans", sans-serif;
+            font: size 12pt;
+        }
+
+        * {
+         box-sizing: border-box;
+        }
+
+        .col-1 {
+            width: 33%;
+            float: left;
+            padding: 15px;
+            border: 1px solid red;
+        }
+
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        .header {
+            text-align: center;
+            width:80%;
+            margin:auto;
+
+        }
+
+        .responsive {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid blue;
+        }
+
+        a:link, a:visited {
+            color: #000;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            }
+
+            a:hover, a:active {
+            background-color: rgb(196, 196, 246);
+            text-decoration: underline;
+        }
+
+        /* Use a media query to add a breakpoint at 800px: */
+        @media screen and (max-width: 800px) {
+            .col-1 {
+                width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="./images/title.jpg" />
+    </div>
+    <div>
+        <div class="row">
+            <div class="col-1">
+                <a href="http://google.com">
+                    <img class="responsive" src="./images/title.jpg" /><br />
+                    <p class="title">Deep Neural Networks - Bank Churn Prediction</p>
+                </a>
+            </div>
+    
+            <div class="col-1">
+                <a href="http://google.com">
+                    <img class="responsive" src="./images/title.jpg" /><br />
+                    <p class="title">Deep Neural Networks - Bank Churn Prediction</p>
+                </a>
+            </div>
+       
+            <div class="col-1">
+                <a href="http://google.com">
+                    <img class="responsive" src="./images/title.jpg" /><br />
+                    <p class="title">Deep Neural Networks - Bank Churn Prediction</p>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="footer header">
+        <p>Get in touch at <a href="https://www.linkedin.com/in/durre-zafar">durre.zafar@gmail.com</a></p>
+        <p><a href="https://www.linkedin.com/in/durre-zafar">https://www.linkedin.com/in/durre-zafar</a></p>
+        <p>You can also view my portfolio below <br />
+            <a href=""><img src="" />Link to your profile </a>
+        </p>
+
+    </div>
+</body>
+</html>
