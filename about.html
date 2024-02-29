@@ -24,18 +24,70 @@
             display: table;
         }
 
+        .topbar {
+            width:100%;
+            Height:5%;
+            padding: 15px;
+            margin:auto;
+            background-color:rgba(13, 64, 103, 0.148);
+        }
+        .alignright {
+            float: right;
+
+        }
+
+        .alignleft {
+            float: left;
+        
+        }
+
+        .pageheading {
+            text-align: center;
+            width:100%;
+            padding: 15px;
+            margin:auto;
+            color:cadetblue;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size:  40px;
+
+        }
+        .bodyheading {
+            text-align: left;
+            width:100%;
+            padding: 15px;
+            margin:auto;
+
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size:  15px;
+            font-weight:bold;
+
+        }
         .header {
             text-align: center;
             width:80%;
             margin:auto;
 
         }
+        .headerimage {
+            text-align: center;
+            width:100%;
+            height:30%;
+            margin:auto;
 
+        }
+
+       
         .responsive {
             max-width: 100%;
             height: auto;
         
         }
+        .eportfolio {
+            max-width: 33%;
+            height: auto;
+        
+        }
+
 
         a:link, a:visited {
             color: #000;
@@ -46,7 +98,6 @@
 
             a:hover, a:active {
             text-decoration: underline;
-        
             font-family:Verdana;
         }
 
@@ -63,90 +114,78 @@
         <img src="./images/title.jpg" />
     </div>
     <div>
-        <div>
+        <div class ="pageheading">
             About
-
-        Hey there!  I am a highly motivated professional with diverse industry experience in data warehousing and business intelligence. My passion is to solve complex data issues using innovative and creative solutions. I recently completed a Postgraduate program in Artificial Intelligence and Machine Learning at the University of Texas, Austin. Looking to apply knowledge and innovation to the next role as a Data scientist. 
         </div>
+        <p>
+        Hey there!  I am a highly motivated professional with diverse industry experience in data warehousing and business intelligence. My passion is to solve complex data issues using innovative and creative solutions. I recently completed a Postgraduate program in Artificial Intelligence and Machine Learning at the University of Texas, Austin. Looking to apply knowledge and innovation to the next role as a Data scientist. 
+       </p> 
 
         <div>
         
-            Work experience
-
-            August 2023 - Current
-            Prime Therapeutics
-
-            Business Intelligence Specialist
-
-
-
-            December 2012 - June 2014
-            Libbey
-
-            Software Analyst Business Intelligence
+            <p class = "bodyheading">Work experience</p>
+            <p class>
+                August 2023 - Current<br/>
+                Prime Therapeutics<br/>
+                Business Intelligence Specialist<br/><br/>
 
 
 
-            October 2006 - May 2010
-            Thomson Reuters - Healthcare
-
-            Senior Database Developer
-
-
-
-            January 2006 - October 2006
-            Thomson Reuters - Legal and Regulatory
-
-            Datawarehouse Software Engineer
+                December 2012 - June 2014<br/>
+                Libbey<br/>
+                Software Analyst Business Intelligence<br/><br/>
 
 
 
-            May 2005 - January 2006
-            Mayo Clinic
+                October 2006 - May 2010<br/>
+                Thomson Reuters - Healthcare<br/>
+                Senior Database Developer<br/><br/>
 
-            IS Intern - Care and Capture Systems
 
+
+                January 2006 - October 2006<br/>
+                Thomson Reuters - Legal and Regulatory<br/>
+                Datawarehouse Software Engineer<br/><br/>
+
+
+
+                May 2005 - January 2006<br/>
+                Mayo Clinic<br/>
+                IS Intern - Care and Capture Systems<br/><br/>
+            </p>
         </div>
     
 
         <div>
 
-            Education
-
-            August 2022
-            University of Texas, Austin
-
-            Postgraduate program in Artificial Intelligence and Machine Learning
-
-
-            May 2005
-            Minnesota State University, Mankato
-
-            Masters in Health Science
+            <p class="bodyheading">Education</p>
+            <p>
+                August 2022 <br/>
+                University of Texas, Austin <br/>
+                Postgraduate program in Artificial Intelligence and Machine Learning<br/><br/><br/>
 
 
-            May 2003
-            Minnesota State University, Mankato
+                May 2005<br/>
+                Minnesota State University, Mankato <br/>
+                Masters in Health Science<br/><br/><br/>
 
-            Bachelors in  Management Information Systems with a minor in Business Administration
-        <div>
 
-            Contact
+                May 2003 <br/>
+                Minnesota State University, Mankato<br/>
+                Bachelors in  Management Information Systems with a minor in Business Administration<br/><br/>
+            </p>
 
-            https://www.linkedin.com/in/durre-zafar
-
-            Email: durre.zafar@gmail.com
-        </div>
 
 
             
         </div>
     </div>
     <div class="footer header">
-        <p>Get in touch at durre.zafar@gmail.com</a></p>
+        <p class="pageheading">Get in touch at</p>
+        <p><a href="https://www.linkedin.com/in/durre-zafar">durre.zafar@gmail.com</a></p> 
         <p><a href="https://www.linkedin.com/in/durre-zafar">https://www.linkedin.com/in/durre-zafar</a></p>
-        <p>You can also view my portfolio below <br />
-            <a href="https://olympus.mygreatlearning.com/eportfolio"><img src="./images/eportfolio.jpg" />>Link to your profile </a>
+        <p>You can also view my eportfolio below <br /><br />
+            <a href="https://olympus.mygreatlearning.com/eportfolio"><img class = "eportfolio" src="./images/eportfolio.jpg"/> </a>
         </p>
 
     </div>
