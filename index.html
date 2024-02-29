@@ -1,25 +1,141 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>
+
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2487.3">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; -webkit-text-stroke: #000000}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; -webkit-text-stroke: #000000; min-height: 14.0px}
-    li.li3 {margin: 0.0px 0.0px 4.0px 0.0px; font: 16.0px Arial; color: #18191b; -webkit-text-stroke: #18191b}
-    span.s1 {font-kerning: none}
-    span.s2 {font-kerning: none; background-color: #ffffff}
-    ol.ol1 {list-style-type: decimal}
-  </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        html {
+            font-family: "Lucida Sans", sans-serif;
+            font: size 12pt;
+        }
+
+        * {
+         box-sizing: border-box;
+        }
+
+        .col-1 {
+            width: 33%;
+            float: left;
+            padding: 15px;
+        }
+
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        .header {
+            text-align: center;
+            width:80%;
+            margin:auto;
+
+        }
+
+        .responsive {
+            max-width: 100%;
+            height: auto;
+        
+        }
+
+        a:link, a:visited {
+            color: #000;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            }
+
+            a:hover, a:active {
+            text-decoration: underline;
+            font-style:oblique
+        }
+
+        /* Use a media query to add a breakpoint at 800px: */
+        @media screen and (max-width: 800px) {
+            .col-1 {
+                width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+            }
+        }
+    </style>
 </head>
 <body>
-<p class="p1"><span class="s1">Hello</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<ol class="ol1">
-  <li class="li3"><span class="s2">&lt;a href="Personal+Loan+Campaign+%281%29&gt;Visit our homepage&lt;/a&gt; Your anchor text should be descriptive.</span></li>
-</ol>
+    <div class="header">
+        <a href="about.html"><img src="./images/title.jpg" /></a>
+    </div>
+    <div>
+        <div class="row">
+            <div class="col-1">
+                <a href="./html_files/Project_7_NN_Bank_Churn_Prediction.html">
+                    <img class="responsive" src="./images/NN.jpg" /><br />
+                    <p class="title">Deep Neural Networks - Bank Churn Prediction</p>
+                </a>
+            </div>
+    
+            <div class="col-1">
+                <a href="./html_files/Project_9_NLP_Twitter.html">
+                    <img class="responsive" src="./images/NLP.jpg" /><br />
+                    <p class="title">Natural Language Processing - Twitter US Airline Sentiment</p>
+                </a>
+            </div>
+       
+            <div class="col-1">
+                <a href="./html_files/Project_8_Computer_Vision.html">
+                    <img class="responsive" src="./images/CV.jpg" /><br />
+                    <p class="title">Computer Vision - Plant Seedling Classification</p>
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-1">
+                <a href="./html_files/Project_6_UnSupervised_Learning_AllLifeBank.html">
+                    <img class="responsive" src="./images/CustomerSegmentation.jpg" /><br />
+                    <p class="title">Unsupervised Learning - AllLife Bank Customer Segmentation</p>
+                </a>
+            </div>
+    
+            <div class="col-1">
+                <a href="./html_files/Project_4_Travel_Package_Purchase_Prediction.html">
+                    <img class="responsive" src="./images/Ensemble.jpg" /><br />
+                    <p class="title">Ensemble techniques - Travel Package Purchase Prediction</p>
+                </a>
+            </div>
+       
+            <div class="col-1">
+                <a href="./html_files/Project_5_Credit_Card_Users_Churn_Prediction.html ">
+                    <img class="responsive" src="./images/Feature.jpg" /><br />
+                    <p class="title">Feature Selection, Model Selection and Tuning - Credit Card Users Churn Prediction</p>
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-1">
+                <a href="./html_files/Project_3_Supervised_Learning_Classification_Personal_Loan_Campaign.html">
+                    <img class="responsive" src="./images/BankChurn.jpg" /><br />
+                    <p class="title">Supervised Learning Classification - Personal Loan Campaign</p>
+                </a>
+            </div>
+    
+            <div class="col-1">
+                <a href="./html_files/Project_2_ Cars4u_Supervised_Learning.html">
+                    <img class="responsive" src="./images/Cars4u.jpg" /><br />
+                    <p class="title">Supervised Learning Regression - Cars4U</p>
+                </a>
+            </div>
+       
+            <div class="col-1">
+                <a href="./html_files/Project_1_Cardio_Project_AIML.html">
+                    <img class="responsive" src="./images/CardioFitness.jpg" /><br />
+                    <p class="title">Basic AIML - Cardio Good Fitness Project</p>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="footer header">
+        <p>Get in touch at <a href="https://www.linkedin.com/in/durre-zafar">durre.zafar@gmail.com</a></p>
+        <p><a href="https://www.linkedin.com/in/durre-zafar">https://www.linkedin.com/in/durre-zafar</a></p>
+        <p>You can also view my portfolio below <br />
+            <a href="https://olympus.mygreatlearning.com/eportfolio"><img src="./images/eportfolio.jpg"/>Link to your profile </a>
+        </p>
+
+    </div>
 </body>
 </html>
