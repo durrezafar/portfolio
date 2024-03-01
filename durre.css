@@ -12,7 +12,7 @@ body {
 }
 
 .col-1 {
-    width: 33%;
+    width: 33.33%;
     float: left;
     padding: 15px;
 }
@@ -25,9 +25,9 @@ body {
 
 .topbar {
     width:100%;
-    Height:25%;
     margin:15px;
     background-image: url("./images/NN.jpg");
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
 
@@ -37,7 +37,8 @@ body {
     font-size: 40px;
     padding: 15px;
     background-position: left center;
-    color:aliceblue
+    color:aliceblue;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .topfont2 {
@@ -46,7 +47,8 @@ body {
     font-size: 40px;
     padding: 15px;
     background-position: left center;
-    color:#000
+    color:#000;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 
@@ -114,7 +116,6 @@ body {
 .responsive {
     max-width: 100%;
     height: auto;
-    box-radius: 8px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -124,17 +125,21 @@ body {
 
 }
 
+.aboutlink a:hover{
+    text-decoration: none;
+
+ }
 
 a:link, a:visited {
     color: #000;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    }
-
-    a:hover, a:active {
-    text-decoration: underline;
     font-family:Verdana;
+ }
+
+ a:hover, a:active {
+   text-decoration: underline;
 }
 
 /* Use a media query to add a breakpoint at 800px: */
